@@ -6,7 +6,10 @@ warm and cozy
 
 ![colourscheme preview](https://files.ari-web.xyz/files/github.com.coffee.vim.jpg)
 
-# Installation
+# Third-party plugin support
+
+- [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
+- [drmingdrmer/vim-tabbar](https://github.com/drmingdrmer/vim-tabbar)
 
 # Installation
 
@@ -30,8 +33,6 @@ call vundle#end()
 call neobundle#begin(expand('...'))
 " ...
 
-" Add maktaba and codefmt to the runtimepath.
-" (The latter must be installed before it can be used.)
 NeoBundle 'coffee-theme/coffee.vim'
 
 " ...
@@ -41,8 +42,6 @@ call neobundle#end()
 ## [VimPlug](https://github.com/junegunn/vim-plug)
 
 ```vim
-" Add maktaba and codefmt to the runtimepath.
-" (The latter must be installed before it can be used.)
 call plug#begin("...")
 " ...
 
@@ -52,7 +51,7 @@ Plug 'coffee-theme/coffee.vim'
 call plug#end()
 ```
 
-# [Pathogen](https://github.com/tpope/vim-pathogen)
+## [Pathogen](https://github.com/tpope/vim-pathogen)
 
 ```sh
 $ cd ~/.vim/bundle
