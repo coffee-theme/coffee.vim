@@ -8,7 +8,7 @@ warm and cozy
 
 # Third-party plugin support
 
-- [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
+- [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) (fork: [coffee-theme/lightline.vim](https://github.com/coffee-theme/lightline.vim))
 - [drmingdrmer/vim-tabbar](https://github.com/drmingdrmer/vim-tabbar)
 
 # Installation
